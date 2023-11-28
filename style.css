@@ -41,3 +41,13 @@ body{
         background-color: black;
         color: white;
     }
+    
+    h2{
+        margin: 2em;
+    }
+/*  */
+    p {
+        margin: 2em;
+        color: white;
+        text-align: center;
+    }
