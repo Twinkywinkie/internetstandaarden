@@ -7,7 +7,6 @@ body{
 }
 
 .background {
-    /* Set the fixed background image */
     background-image: url('images/wallpaper\ 2.0.jpg');
     opacity: 0.5;
     background-size: cover;
@@ -17,38 +16,56 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Place the background behind other elements */
+    z-index: -1;
 }
+
+h1 p {
+    margin: 10px 100px;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+h2{
+    margin: 2em;
+}
+
+
+p{
+    text-align: left;
+}
+
+
 
 .content {
-    /* Style the scrollable content */
     padding: 20px;
-    margin: 100px; /* Adjust as needed to avoid overlap with background */
+    margin: 100px;
     background-color: #cbbaa0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
 
-.image-container {
-    white-space: nowrap; /* Prevent line breaks */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    display: flex; /* Use flexbox to align images horizontally */
+.image-container ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
 }
 
-.image-container a {
-    text-decoration: none; /* Remove default underline on links */
-    margin-right: 10px; /* Add some space between images */
-    cursor: pointer; /* Change cursor to pointer on hover */
+.image-container li {
+    list-style-type: none;
+    text-decoration: none; 
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .image-container img {
     height: auto;
     width: 250px;
     opacity: 75%;
+    transform: translateY(1em);
 }
 
 .image-container img:hover {
 opacity: 100%;
+transform: translateY(5px)
 }
 
 .center { 
@@ -57,8 +74,13 @@ opacity: 100%;
     margin-top: 4em;
     margin-right: auto;
     width: 25%;
+    text-align: center;
 }
 
+.text_center{
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
 .small_logo {
     height: 69px;
     float: left;
@@ -97,16 +119,18 @@ opacity: 100%;
     background-color: #ffffff70;   
     padding: 10px;
     border-radius: 20px;
+    margin-bottom: 25px;
 }
-
-h2{
-    margin: 2em;
+.textbox img{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
 }
-
-p {
-    margin: 10px 100px;
-    color: rgb(80, 80, 80);
-    text-align: center;
+.textbox table{
+    padding-bottom: 2em;
 }
 
 .button-container {
@@ -121,9 +145,9 @@ p {
     font-size: 26px;
     cursor: pointer;
     background-color: #7b6a58;
-    border-color: #7b6a58;
+    border-color: #7a6957;
     color: #fff;
-    text-decoration: none; /* Remove default underline on links */
+    text-decoration: none;
     border-radius: 20px;
 }
 
@@ -131,4 +155,208 @@ p {
     background-color: white;
     color: black;
     border-radius: 20px;
+    transform: translateY(-5px);
 }
+
+
+.all_cats {
+width: 300px;
+height: auto;
+float: left;
+}
+
+.rating img{
+height: 2em;
+width: auto;
+}
+
+.img_map {
+position: relative;
+}
+
+.map {
+height: auto;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 8em;
+display: block;
+} 
+
+.kopjes {
+    position: absolute;
+    top: 55em;
+    left: 20em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.kopjes:hover {
+    transform: scale(2);
+}
+
+.poezenboot {
+    position: absolute;
+    top: 41em;
+    left: 47em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+.poezenboot:hover {
+    transform: scale(2);
+}
+
+.kattenkabinet {
+    position: absolute;
+    top: 56em;
+    left: 48em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.kattenkabinet:hover {
+    transform: scale(2);
+}
+
+.cats {
+    position: absolute;
+    top: 52em;
+    left: 54em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.cats:hover {
+    transform: scale(2);
+}
+
+.dierenwinkel_amsterdam {
+    position: absolute;
+    top: 66em;
+    left: 66em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.dierenwinkel_amsterdam:hover {
+    transform: scale(2);
+}
+
+.mykroelie {
+    position: absolute;
+    top: 69em;
+    left: 49em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.mykroelie:hover {
+    transform: scale(2);
+}
+
+.poes {
+    position: absolute;
+    top: 48em;
+    left: 49em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.poes:hover {
+    transform: scale(2);
+}
+
+.boeman {
+    position: absolute;
+    top: 60em;
+    left: 57em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.boeman:hover {
+    transform: scale(2);
+}
+
+.luci {
+    position: absolute;
+    top: 45em;
+    left: 37em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.luci:hover {
+    transform: scale(2);
+}
+
+.stampot {
+    position: absolute;
+    top: 63em;
+    left: 72em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.stampot:hover {
+    transform: scale(2);
+}
+
+.bob {
+    position: absolute;
+    top: 31em;
+    left: 60em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.bob:hover {
+    transform: scale(2);
+}
+
+.tommy{
+    position: absolute;
+    top: 51em;
+    left: 23em;
+    z-index: 1;
+    width: 50px;
+    height: auto;
+}
+
+.tommy:hover {
+    transform: scale(2);
+}
+
+.textbox-2{
+    background-color: #ffffff70;   
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 8em;
+}
+.textbox-2 img{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+}
+.textbox-2 table{
+    padding-bottom: 2em;
+}
+
+.rating-2 img{
+    height: 2em;
+    width: auto;
+    }
